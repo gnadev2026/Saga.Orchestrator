@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Inventory/Inventory.csproj" />
+  <Project Path="Notifier/Notifier.csproj" />
+  <Project Path="Order/Order.csproj" />
+  <Project Path="Saga.Orchestrator/Saga.Orchestrator.csproj" />
+</Solution>
