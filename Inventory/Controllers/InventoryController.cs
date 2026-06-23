@@ -12,7 +12,7 @@ namespace Inventory.Controllers
         [HttpPost]
         public int Post([FromBody] Inventory inventory)
         {
-            throw new Exception("Error Occured...while updating Inventory.");
+            //throw new Exception("Error Occured...while updating Inventory.");
             Console.WriteLine($"Updated  Inventory for : {inventory.ProductName}");
             return 2;
         }
